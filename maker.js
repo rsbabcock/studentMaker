@@ -11,9 +11,9 @@ const studentDomBuilder = (gender) => {
             // Build the DOM components
 
             if (row.childNodes.length % 3 === 0) {
-                studentBodyRef.appendChild(row)
                 row = document.createElement("div")
-            }
+                studentBodyRef.appendChild(row)
+            }         
 
             if (gender === currentStudent.gender ||
                     typeof gender === "undefined") {

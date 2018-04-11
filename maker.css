@@ -2,3 +2,7 @@ section {
     border: 1px dotted black;
     float: left;
 }
+
+article {
+    display: inline-block;
+}
